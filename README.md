@@ -12,5 +12,6 @@ to your environment:
 - SENDGRID_PASSWORD
 
 SendGrid doesn't provide an email to get email reputation, so Mechanize
-is used to login and scrape the data off their site.
+is used to login and scrape the data off their site. You'll need to
+include this as a dependency in your dashboard's `Gemfile`
 
